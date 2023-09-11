@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Nalbert Gabriel Melo Leal
+	email = nalbertgml@gmail.com
+[init]
+	defaultBranch = main
+
+[alias]
+    # soft reset
+    undo = "!git reset --soft HEAD^"
+
+    # Amend staged files to the latest commit
+    amend = commit --amend --reuse-message=HEAD
+
+    # list branches
+    branches = branch --all
+
+    # list remotes
+    remotes = remote --verbose
+
+    # list tags
+    tags = tag -l
